@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "movie link ",
-  description: "moviesStore-smartsaathi",
+  description: "moviesStore-gpxhub",
   generator: "smartsaathi",
 }
 
