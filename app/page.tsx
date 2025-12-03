@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Download className="h-6 w-6 text-primary" />
-            <h1 className="text-xl font-bold">Saathi Download</h1>
+            <h1 className="text-xl font-bold">Gpxhub</h1>
           </div>
           <Link href="/admin">
             <Button variant="ghost" size="sm" className="flex items-center gap-2">
@@ -28,7 +28,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto space-y-8">
           {/* Hero Section */}
           <div className="text-center space-y-4">
-            <h1 className="text-4xl font-bold text-balance">Saathi Download Portal</h1>
+            <h1 className="text-4xl font-bold text-balance">Gpxhub Download Portal</h1>
             <p className="text-xl text-muted-foreground text-pretty max-w-2xl mx-auto">
               Access movies through direct links. Contact admin for movie access.
             </p>
