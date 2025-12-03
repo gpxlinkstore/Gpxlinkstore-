@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS admin_settings (
 
 -- Insert default admin password
 INSERT INTO admin_settings (setting_key, setting_value) 
-VALUES ('admin_password', 'ankit07')
+VALUES ('admin_password', 'gpxhub')
 ON CONFLICT (setting_key) 
 DO UPDATE SET 
   setting_value = EXCLUDED.setting_value,
