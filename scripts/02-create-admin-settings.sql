@@ -37,6 +37,6 @@ BEGIN
   FROM admin_settings 
   WHERE setting_key = 'admin_password';
   
-  RETURN COALESCE(password, 'ankit07');
+  RETURN COALESCE(password, 'gpxhub');
 END;
 $$ LANGUAGE plpgsql;
